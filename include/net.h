@@ -3,5 +3,6 @@
 
 #pragma once
 
-void hostServer(){
+char* hostServer(){
+    
 }

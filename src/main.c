@@ -41,7 +41,7 @@ struct Args begin(){
     }
 
     if(host == 'y'){
-        hostServer();
+        char *ip = hostServer();
         to_ip = malloc(sizeof(to_ip));
         strcpy(to_ip, "");
         from_ip = malloc(sizeof(from_ip));
